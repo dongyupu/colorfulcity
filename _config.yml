@@ -1,8 +1,8 @@
 # Site settings
-title: Clean Blog
+title: Dongyupu's Blog
 header-img: img/home-bg.jpg
 email: dongyupu@foxmail.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Dream big, work smart, deliver fast!Software to plan, collaborate, code, and service. Built for teams."
 baseurl: "/test"
 url: "http://dongyupu.github.io/test"
 twitter_username: 741375879
