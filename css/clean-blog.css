@@ -19,11 +19,11 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
-h7{
+h7 {
+  font-size : 14px; 
   position:absolute;
   left:100px;
   top:300px；
-  font-size : 14px; 
 }
 a {
   color: #404040;
