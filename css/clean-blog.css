@@ -20,7 +20,9 @@ h6 {
   font-weight: 800;
 }
 h7{
-  font-size:30px;
+  position:absolute;
+  left:50%;
+  top:90%；
   padding: 10%;
   line-height: 50%;
 }
