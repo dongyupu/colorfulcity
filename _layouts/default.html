@@ -8,6 +8,15 @@
     {% include nav.html %}
 
     {{ content }}
+    <!--高速版sohu畅言-->
+<div id="SOHUCS"></div>
+<script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+    window.changyan.api.config({
+        appid: 'cys866EWk',
+        conf: 'prod_e30e8ab6272cd1277ff54684c4fbcf8c'
+    });
+</script>
 
     {% include footer.html %}
 
