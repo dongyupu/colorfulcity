@@ -159,6 +159,16 @@ hr.small {
   margin-top: 0;
   font-size: 50px;
 }
+
+.intro-header .site-heading h2,
+.intro-header .page-heading h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  padding-bottom: 37px;
+}
+
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   font-size: 24px;
