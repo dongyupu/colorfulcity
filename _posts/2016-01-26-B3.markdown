@@ -4,7 +4,7 @@ title: "B3· 物业"
 subtitle:   "B3"
 date:       2016-01-26 21:24:00
 author:     "Dongyupu"
-header-img: ""
+header-img: "img/colorfulcity/floor/B2/header-b2.jpg"
 ---
 
 <p>B3· 物业<br />
