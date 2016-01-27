@@ -1,0 +1,25 @@
+---
+layout: post
+title: "F1· 时尚"
+subtitle:   "F1"
+date:       2016-01-28 21:21:00
+author:     "Dongyupu"
+header-img: "img/colorfulcity/floor/F1/header-f1.jpg"
+---
+
+<p>F1 · 时尚<br />
+<img src="{{ site.baseurl }}/img/colorfulcity/floor/F1/header-f1.jpg" alt="B2·停车场">
+</p>
+
+<div style="width:1015px; text-align:center; margin:3px auto;">
+<font size="5" face="arial" color="DodgerBlue ">
+	{% for image in site.static_files %}
+		{% if image.path contains 'img/colorfulcity/floor/F1/stores' %}
+			{% if image.extname == '.jpg' %}
+				<div><img src="{{ site.baseurl }}{{ image.path }}" /></div>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+</div>
+</font>
+<br>
