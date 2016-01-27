@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "F4· 娱乐·电玩"
-subtitle:   "F3"
+subtitle:   "F4"
 date:       2016-01-28 21:24:00
 author:     "Dongyupu"
 header-img: "img/colorfulcity/floor/F4/header-f4.jpg"
