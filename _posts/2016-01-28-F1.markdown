@@ -8,7 +8,7 @@ header-img: "img/colorfulcity/floor/F1/header-f1.jpg"
 ---
 
 <p>F1 · 时尚<br />
-<img src="{{ site.baseurl }}/img/colorfulcity/floor/F1/header-f1.jpg" alt="B2·停车场">
+<img src="{{ site.baseurl }}/img/colorfulcity/floor/F1/header-f1.jpg" alt="F1·时尚">
 </p>
 
 <div style="width:1015px; text-align:center; margin:3px auto; display:inline;">
