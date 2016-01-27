@@ -12,15 +12,13 @@ header-img: "img/colorfulcity/floor/F1/header-f1.jpg"
 </p>
 
 <div style="width:1015px; text-align:center; margin:3px auto;">
-<font size="5" face="arial" color="DodgerBlue ">
 	{% for image in site.static_files %}
 		{% if image.path contains 'img/colorfulcity/floor/F1/stores' %}
 			{% if image.extname == '.jpg' %}
-				<div style="display:inline;"><img style="margin: 0 auto; height: 100%; width: 70px; border-radius: 10px; overflow: hidden;" src="{{ site.baseurl }}{{ image.path }}" /></div>
+				<div style="margin: 0 auto; height: 100%; width: 70px; border-radius: 10px; overflow: hidden; display:inline;"><img src="{{ site.baseurl }}{{ image.path }}" /></div>
 			{% endif %}
 		{% endif %}
 	{% endfor %}
 </div>
-</font>
 <br>
 
