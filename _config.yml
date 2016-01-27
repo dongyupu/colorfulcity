@@ -1,6 +1,6 @@
 # Site settings
-title: Colorful City 
-         <br>西美·花街
+title: Colorful   City   
+         西美·花街
 header-img: img/home-bg-0.jpg
 email: dongyupu@foxmail.com
 description: "遇见花街，爱上花街"
@@ -16,5 +16,5 @@ weibo_username: dongyupu1988
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

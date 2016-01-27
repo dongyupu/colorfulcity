@@ -1,0 +1,24 @@
+---
+layout: post
+title: "F3· 美食"
+subtitle:   "F3"
+date:       2016-01-28 21:23:00
+author:     "Dongyupu"
+header-img: "img/colorfulcity/floor/F3/header-f3.jpg"
+---
+
+<p>F3 · 美食<br />
+<img src="{{ site.baseurl }}/img/colorfulcity/floor/F3/header-f3.jpg" alt="F3·美食">
+</p>
+
+<div style="width:1015px; text-align:center; margin:3px auto; display:inline;">
+	{% for image in site.static_files %}
+		{% if image.path contains 'img/colorfulcity/floor/F3/stores' %}
+			{% if image.extname == '.jpg' %}
+				<img style="height: 100%; width: 100px; display:inline;" src="{{ site.baseurl }}{{ image.path }}" />
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+</div>
+<br>
+

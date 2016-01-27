@@ -1,0 +1,23 @@
+---
+layout: post
+title: "F2· 潮流"
+subtitle:   "F2"
+date:       2016-01-28 21:22:00
+author:     "Dongyupu"
+header-img: "img/colorfulcity/floor/F2/header-f2.jpg"
+---
+
+<p>F2 · 潮流<br />
+<img src="{{ site.baseurl }}/img/colorfulcity/floor/F2/header-f2.jpg" alt="F2·潮流">
+</p>
+
+<div style="width:1015px; text-align:center; margin:3px auto; display:inline;">
+	{% for image in site.static_files %}
+		{% if image.path contains 'img/colorfulcity/floor/F2/stores' %}
+			{% if image.extname == '.jpg' %}
+				<img style="height: 100%; width: 100px; display:inline;" src="{{ site.baseurl }}{{ image.path }}" />
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+</div>
+<br>
