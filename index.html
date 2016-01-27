@@ -13,8 +13,9 @@ description: "遇见花街，爱上花街"
             {{ post.subtitle }}
         </h3>
         {% endif %}
+        <img style="position: relative; top: 55px;" onclick="location.href='{{ site.baseurl }}/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}')'" width="100%" src="{{ site.baseurl }}/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     </a>
-    <p class="post-meta" style=" width:640px; height:400px; background-repeat:no-repeat; background-size:auto; background-image: url('{{ site.baseurl }}/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}')">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <！---p class="post-meta" >Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p --->
 </div>
 <hr>
 {% endfor %}
