@@ -1,4 +1,4 @@
-----
+---
 layout: post
 title: "B2·停车场"
 subtitle:   "B2"
@@ -6,6 +6,7 @@ date:       2016-01-27 21:21:00
 author:     "Dongyupu"
 header-img: "img/colorfulcity/floor/B2/header-f2.jpg"
 ---
+
 <p>B1 停车场<br />
 </p>
 
