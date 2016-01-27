@@ -8,4 +8,5 @@ header-img: "img/colorfulcity/floor/B2/header-b2.jpg"
 ---
 
 <p>B2 停车场<br />
+<img src="{{ site.baseurl }}/img/colorfulcity/floor/B2/header-b2.jpg" alt="B2`停车场">
 </p>
