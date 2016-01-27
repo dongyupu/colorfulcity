@@ -16,7 +16,7 @@ header-img: "img/colorfulcity/floor/F1/header-f1.jpg"
 	{% for image in site.static_files %}
 		{% if image.path contains 'img/colorfulcity/floor/F1/stores' %}
 			{% if image.extname == '.jpg' %}
-				<div><img style="margin: 0 auto; height: 100%; width: 70px; border-radius: 10px; overflow: hidden;" src="{{ site.baseurl }}{{ image.path }}" /></div>
+				<img style="margin: 0 auto; height: 100%; width: 70px; border-radius: 10px; overflow: hidden;" src="{{ site.baseurl }}{{ image.path }}" />
 			{% endif %}
 		{% endif %}
 	{% endfor %}
