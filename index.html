@@ -1,4 +1,3 @@
-
 ---
 layout: page
 description: "遇见花街，爱上花街"
@@ -14,8 +13,8 @@ description: "遇见花街，爱上花街"
             {{ post.subtitle }}
         </h3>
         {% endif %}
-        <img style="position: relative; top: 55px;" width="100%" src="{{ site.baseurl }}/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}" />
     </a>
+	<img style="position: relative; top: 55px;" width="100%" src="{{ site.baseurl }}/{% if post.header-img %}{{ post.header-img }}{% else %}{{ site.header-img }}{% endif %}" />
     <!-- p class="post-meta" >Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p -->
 </div>
 <hr>
