@@ -7,6 +7,6 @@ author:     "Dongyupu"
 header-img: "img/colorfulcity/floor/B2/header-b2.jpg"
 ---
 
-<p>B1 停车场<br />
+<p>B2 停车场<br />
 </p>
 
