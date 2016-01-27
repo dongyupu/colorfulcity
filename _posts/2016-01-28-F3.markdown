@@ -15,7 +15,7 @@ header-img: "img/colorfulcity/floor/F3/header-f3.jpg"
 	{% for image in site.static_files %}
 		{% if image.path contains 'img/colorfulcity/floor/F3/stores' %}
 			{% if image.extname == '.jpg' %}
-				<img style="height: 100%; width: 70px; display:inline;" src="{{ site.baseurl }}{{ image.path }}" />
+				<img style="height: 100%; width: 100px; display:inline;" src="{{ site.baseurl }}{{ image.path }}" />
 			{% endif %}
 		{% endif %}
 	{% endfor %}
